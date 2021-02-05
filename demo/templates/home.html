@@ -1,0 +1,7 @@
+<ul>
+{% for object in object_list %}
+<a href={% url 'detailPage' object.pk %}>{{ object.room_no}}</a>
+
+
+{% endfor %}
+</ul>
